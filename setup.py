@@ -11,7 +11,7 @@ import sys
 
 
 PROJECT = 'virtualenvwrapper.basic'
-VERSION = '0.1'
+VERSION = '0.2'
 
 
 try:
@@ -138,9 +138,6 @@ setup(
     ],
 
     platforms=['Any'],
-
-    provides=['virtualenvwrapper.basic',
-              ],
     requires=['virtualenv',
               'virtualenvwrapper (>=4.0)',
               ],
