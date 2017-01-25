@@ -1,9 +1,5 @@
 #!/usr/bin/env python
-"""virtualenvwrapper.basic
-
-virtualenvwrapper.basic is a template for virtualenvwrapper_ to create the base
-skeleton of a python application when creating a new project directory.
-"""
+"""virtualenvwrapper.basic is a template for virtualenvwrapper."""
 
 from setuptools import setup, find_packages
 
@@ -124,6 +120,7 @@ setup(
 
     url='https://github.com/morgan-del/virtualenwrapper.basic',
 
+    license='BSD',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: BSD License',
