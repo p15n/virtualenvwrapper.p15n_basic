@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""virtualenvwrapper.basic is a template for virtualenvwrapper."""
+"""A Python application template for virtualenvwrapper."""
 
 from setuptools import setup, find_packages
 
@@ -126,7 +126,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Intended Audience :: Developers',
         'Environment :: Console',
-        'Framework :: Django',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
