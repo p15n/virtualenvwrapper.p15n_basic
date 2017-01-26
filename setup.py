@@ -11,7 +11,7 @@ import sys
 
 
 PROJECT = 'virtualenvwrapper.basic'
-VERSION = '0.2'
+VERSION = '0.2.1'
 
 
 try:
