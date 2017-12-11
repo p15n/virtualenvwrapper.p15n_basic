@@ -30,7 +30,7 @@ The content of each file is matched to the name of your project and your
 :code:`git` configuration.
 
 You can set up another reference skeleton directory by specifying the path to
-it in the environment variable :code:``VIRTUALENVWRAPPER_BASIC``. The content
+it in the environment variable :code:`VIRTUALENVWRAPPER_BASIC`. The content
 of this directory will be used as the template of the new project.
 
 ::
@@ -54,10 +54,12 @@ The following variables are available:
 |                              | :code:`virtualenvwrapper`.                   |
 +------------------------------+----------------------------------------------+
 | $AUTHOR_EMAIL                | Replaced by the email configured in git as   |
-|                              | :code:`user.email`.                          |
+|                              | :code:`user.email` or `AUTHOR_EMAIL`         |
+|                              | environment variable if set.                 |
 +------------------------------+----------------------------------------------+
 | $AUTHOR_NAME                 | Replaced by the name configured in git as    |
-|                              | :code:`user.name`.                           |
+|                              | :code:`user.name` or `AUTHOR_NAME`           |
+|                              | environment variable if set.                 |
 +------------------------------+----------------------------------------------+
 | $YEAR                        | Replaced by the current year.                |
 +------------------------------+----------------------------------------------+

@@ -25,6 +25,9 @@ def owner_info():
 
     name = config.get('user', 'name', fallback='Anonymous')
     email = config.get('user', 'email', fallback='foo@bar')
+    name = os.environ.get('AUTHOR_NAME', name)
+    email = os.environ.get('AUTHOR_EMAIL', email)
+
     log.info('setting project owner to "%s <%s>"' % (name, email))
     return name, email
 
