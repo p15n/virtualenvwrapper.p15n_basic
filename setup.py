@@ -15,7 +15,7 @@ VERSION = '0.2.1'
 
 
 try:
-    long_description = open('README', 'rt').read()
+    long_description = open('README.rst', 'rt').read()
 except IOError:
     long_description = ''
 
@@ -118,7 +118,7 @@ setup(
     author='Morgan Delahaye-Prat',
     author_email='mdp@sillog.net',
 
-    url='https://github.com/morgan-del/virtualenwrapper.basic',
+    url='https://github.com/morgan-del/virtualenvwrapper.basic',
 
     license='BSD',
     classifiers=[
